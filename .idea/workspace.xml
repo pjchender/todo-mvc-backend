@@ -5,32 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3d54933-ba4c-4b57-8f0e-2a0e88fd16ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/app.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/auth.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/database.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/gorm.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/configs/server.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/database.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global/setting.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/database/database.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/middleware/error_handler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/middleware/response_header.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/router/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/app/app.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/ginmode/gin_mode.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/logger/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/setting/internal.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/setting/setting.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/setting/vendor.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/setup/setup.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/app/error_handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/errMsg/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/errMsg/error_message.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/middleware/error_handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/middleware/error_handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/router/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/app/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/app/app.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +29,14 @@
   <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
