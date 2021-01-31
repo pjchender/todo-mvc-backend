@@ -3,6 +3,7 @@ package configs
 type Auth struct {
 	JWT
 	Password
+	Facebook
 }
 
 type JWT struct {
@@ -14,4 +15,10 @@ type JWT struct {
 type Password struct {
 	Strength int    `default:"10"`
 	Salt     string `default:"pjchender"`
+}
+
+type Facebook struct {
+	ClientID     string `default:"904503003705537"`
+	ClientSecret string `default:"foobar"`
+	AppToken     string `default:"foobar"`
 }

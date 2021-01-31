@@ -36,6 +36,16 @@ func (s *Setting) ReadAuthSetting() *configs.Auth {
 		s.defaultConfig.Auth.JWT.Secret = JWTSecret
 	}
 
+	FacebookClientSecret := os.Getenv("FACEBOOK_CLIENT_SECRET")
+	if FacebookClientSecret != "" {
+		s.defaultConfig.Auth.Facebook.ClientSecret = FacebookClientSecret
+	}
+
+	facebookAppToken := os.Getenv("FACEBOOK_APP_TOKEN")
+	if facebookAppToken != "" {
+		s.defaultConfig.Auth.Facebook.AppToken = facebookAppToken
+	}
+
 	return &s.defaultConfig.Auth
 }
 

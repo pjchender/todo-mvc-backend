@@ -5,14 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3d54933-ba4c-4b57-8f0e-2a0e88fd16ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pkg/app/error_handler.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/errMsg/error.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/errMsg/error_message.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/drop_db/drop.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/seed_db/seed.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/database/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/middleware/facebook.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/model/todo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/router/api/v1/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/router/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/service/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/todo-mvc-backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/todo-mvc-backend.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/middleware/error_handler.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/middleware/error_handler.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/auth.go" beforeDir="false" afterPath="$PROJECT_DIR$/configs/auth.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/internal/database/database.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/database/database.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/internal/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/router/router.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pkg/app/app.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/app/app.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/setting/internal.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/setting/internal.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +54,29 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1612095082" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1612095081" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />

@@ -1,6 +1,7 @@
 package database
 
 import (
+	"github.com/pjchender/todo-mvc-backend/internal/model"
 	log "github.com/sirupsen/logrus"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
@@ -24,7 +25,8 @@ func (d *GormDatabase) AutoMigrate() {
 	d.DB.Exec("CREATE EXTENSION IF NOT EXISTS \"uuid-ossp\";")
 
 	if err := d.DB.AutoMigrate(
-		//&model.Todo{},
+		&model.User{},
+		&model.Todo{},
 	); err != nil {
 		log.Fatal(err.Error())
 	}
@@ -32,6 +34,7 @@ func (d *GormDatabase) AutoMigrate() {
 
 func (d *GormDatabase) DropAllTables() {
 	if err := d.DB.Migrator().DropTable(
+		"users",
 		"todos",
 	); err != nil {
 		log.Fatal(err.Error())
