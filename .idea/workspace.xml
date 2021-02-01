@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3d54933-ba4c-4b57-8f0e-2a0e88fd16ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/internal/database/todo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/router/api/v1/todo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/router/todo.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/internal/service/todo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/middleware/facebook.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/middleware/facebook.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/internal/router/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/router/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/setting/internal.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/setting/internal.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

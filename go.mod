@@ -1,3 +1,5 @@
+// +heroku goVersion 1.15
+
 module github.com/pjchender/todo-mvc-backend
 
 go 1.15

@@ -17,7 +17,7 @@ func (s *Setting) ReadAppSetting() *configs.App {
 }
 
 func (s *Setting) ReadDBSetting() *configs.Database {
-	DSN := os.Getenv("DSN")
+	DSN := os.Getenv("DATABASE_URL")
 	if DSN != "" {
 		s.defaultConfig.Database.DSN = DSN
 	}
@@ -50,7 +50,7 @@ func (s *Setting) ReadAuthSetting() *configs.Auth {
 }
 
 func (s *Setting) ReadServerSetting() *configs.Server {
-	serverPort := os.Getenv("SERVER_PORT")
+	serverPort := os.Getenv("PORT")
 	if serverPort != "" {
 		s.defaultConfig.Server.Port = serverPort
 	}
