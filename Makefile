@@ -1,5 +1,5 @@
 build:
-	go build -o bin/main main.go
+	env GOOS=linux GOARCH=amd64 go build -o bin/main -v .
 
 run:
 	MODE=production ./bin/main
