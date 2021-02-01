@@ -32,7 +32,7 @@ type FacebookAuthResp struct {
 func (f *AuthWithFacebook) CheckFacebookLogin() gin.HandlerFunc {
 	return func(ctx *gin.Context) {
 		var err error
-		inputToken := ctx.GetHeader("fb-client-token")
+		inputToken := ctx.GetHeader("Facebook-Client-Token")
 		if inputToken == "" {
 			app.SuccessOrAbort(ctx, http.StatusUnauthorized, errors.New(errMsg.InvalidToken))
 		}
@@ -72,7 +72,7 @@ func isUserLogin(inputToken, appToken string) (*FacebookAuth, error) {
 	baseURL := "https://graph.facebook.com/debug_token"
 	endPoint := fmt.Sprintf("%s?input_token=%s&access_token=%s", baseURL, inputToken, appToken)
 
-	log.Println("endPoint", endPoint)
+	//log.Println("endPoint", endPoint)
 
 	res, err := http.Get(endPoint)
 	if err != nil {
